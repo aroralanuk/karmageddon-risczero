@@ -5,7 +5,6 @@ import querystring from "querystring";
 import { getCookies, getCookie, setCookie, deleteCookie } from "cookies-next";
 
 export default function Profile({ user }) {
-  console.log(user);
   return user ? (
     <>
       <div className="profile">

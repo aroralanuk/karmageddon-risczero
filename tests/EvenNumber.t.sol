@@ -33,7 +33,7 @@ contract EvenNumberTest is RiscZeroCheats, Test {
     }
 
     function test_SetEven() public {
-        uint256 number = 12345678;
+        uint256 number = 12345677;
         (bytes memory journal, bytes32 post_state_digest, bytes memory seal) =
             prove(Elf.IS_EVEN_PATH, abi.encode(number));
 
