@@ -18,5 +18,5 @@ log = { workspace = true }
 methods = { workspace = true }
 risc0-ethereum-contracts = { workspace = true }
 risc0-zkvm = { workspace = true }
-serde = { workspace = true }
+# serde = { workspace = true }
 tokio = { workspace = true }
